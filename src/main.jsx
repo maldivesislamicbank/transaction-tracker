@@ -6,7 +6,7 @@ import './style.css';
 const transactions = {
   MIB5446P921: {
     reference: 'MIB5446P921',
-    status: 'Documentation Processing',
+    status: 'International Transaction Verification',
     statusType: 'pending',
     amount: 'INR 799,000.00',
     service: 'Family Support Transfer',
@@ -18,12 +18,12 @@ const transactions = {
     payoutLocation: 'Deposit to Bank Account',
     senderAgent: 'Western Union Maldives',
     receiverBank: 'Indian Bank N/A',
-    note: 'Documentation review has started and supporting records are currently being processed before payment verification.',
+    note: 'Documentation and payment verification have been completed. International transaction verification is currently in progress.',
     timeline: [
       { title: 'Transaction Created', time: '24 May 2026, 10:00 AM', done: true },
-      { title: 'Documentation Processing', time: 'Started on 24 May 2026, 11:30 AM', done: true, active: true },
-      { title: 'Payment Verification', time: 'Pending', done: false },
-      { title: 'International Transaction Verification', time: 'Pending', done: false },
+      { title: 'Documentation Processing', time: 'Completed', done: true, active: true },
+      { title: 'Payment Verification', time: 'Completed', done: false },
+      { title: 'International Transaction Verification', time: 'In Progress', done: false },
       { title: 'Payment Processed', time: 'Pending', done: false },
       { title: "Received to Receiver's Bank", time: 'Pending', done: false },
       { title: "Deposited to Receiver's Account", time: 'Pending', done: false }
