@@ -18,7 +18,7 @@ const transactions = {
     payoutLocation: 'Deposit to Bank Account',
     senderAgent: 'Western Union Maldives',
     receiverBank: 'Indian Bank N/A',
-    note: 'Documentation and payment verification have been completed. International transaction verification is currently in progress.',
+    note: 'Waiting for confirmation from Indian Bank.',
     timeline: [
       { title: 'Transaction Created', time: '24 May 2026, 10:00 AM', done: true },
       { title: 'Documentation Processing', time: 'Completed at 24 May 2026, 04:30 PM', done: true },
