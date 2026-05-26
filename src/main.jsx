@@ -6,7 +6,7 @@ import './style.css';
 const transactions = {
   MIB5446P921: {
     reference: 'MIB5446P921',
-    status: 'Deposit to receiver's account',
+    status: 'Deposit to receiver account',
     statusType: 'pending',
     amount: 'INR 799,000.00',
     service: 'Family Support Transfer',
