@@ -14,7 +14,7 @@ const transactions = {
     receiver: 'Eslavath Rajesh Kumar',
     destination: 'Maldives to India',
     createdAt: '24 May 2026, 10:00 AM',
-    expectedAt: '25 May 2026, 11:59 PM',
+    expectedAt: '27 May 2026',
     payoutLocation: 'Deposit to Bank Account',
     senderAgent: 'Western Union Maldives',
     receiverBank: 'Indian Bank N/A',
